@@ -35,6 +35,13 @@ a {
 body {
     background-color: rgb(184, 184, 184);
 }
+.tipo-ricetta {
+    color: greenyellow;
+}
+#h1-titolo {
+    color: #4E3969;
+    font-size: 55px;
+}
 .col {
     display: flex;
 }
@@ -107,6 +114,9 @@ body {
     min-height: 200px;
     background-color: #FF9613;
     border: dashed;
+}
+#h1-prepareazione {
+    font-size: 40px;
 }
 hr {
     margin-top: 15px;
