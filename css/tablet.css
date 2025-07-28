@@ -1,6 +1,6 @@
 @media screen and (max-width: 1020px) {
     .container {
-        width: 85%;
+        width: 90%;
         margin: 0 auto;
     }
     .social span {
@@ -21,6 +21,17 @@
         display: flex;
         gap: 50px;
         flex-wrap: wrap;
+    }
+    .col {
+        display: flex;
+        flex-direction: column;
+    }
+    .box-sx {
+        width: 100%;
+    }
+    .box-dx {
+        width: 100%;
+
     }
 
 }

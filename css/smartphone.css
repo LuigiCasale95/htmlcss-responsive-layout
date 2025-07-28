@@ -44,8 +44,10 @@
         flex-direction: column;
         gap: 10px;
     }
-
-
+    .preparazione > section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
     /* FOOTER */
     .fondo-pagina {
