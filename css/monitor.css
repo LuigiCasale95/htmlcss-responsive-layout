@@ -1,14 +1,23 @@
+/* GENERALI */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     /* Debug */
     background-color: aqua;
 }
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* HEADER */
 #titolo {
   font-family: "Nerko One", cursive;
   font-weight: 400;
@@ -25,4 +34,58 @@
 }
 body {
     background-color: rgb(184, 184, 184);
+}
+.col {
+    display: flex;
+}
+.box-sx {
+    /* Debug*/
+    background-color: #FF9613;
+    border: dashed;
+    height: 400px;
+    width: 70%;
+}
+.box-dx {
+    /* Debug*/
+    background-color: #13ff89;
+    border: dashed;
+    height: 400px;
+    width: 30%;
+}
+.row-social {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.col-social {
+    width: calc ((100% / 5) (40px / 4));
+}
+.social {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10%;
+    padding: 60px;
+    padding-bottom: 25px;
+    padding-top: 5px;
+    /* debug */
+    height: 30px;
+    border: dashed;
+}
+.fa-facebook {
+    color: blue;
+}
+.fa-twitter {
+    color: cyan;
+}
+.fa-pinterest {
+    color: red;
+}
+.fa-instagram {
+    color: deeppink;
+}
+.fa-youtube {
+    color: red;
 }
