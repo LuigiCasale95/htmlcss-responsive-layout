@@ -2,5 +2,32 @@
     .logo {
         text-align: center;
     }
+    .social {
+        background-color: white;
+        border-radius: 45%;
+        padding: 15px;
+    }
+    .img-preparazione {
+        float: none;
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .fondo-pagina {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-sx {
+        width: 80%;
+
+    }
+    .footer-dx {
+        width: 80%;
+    }
+    h1 span {
+        display: none;
+    }
 
 }
