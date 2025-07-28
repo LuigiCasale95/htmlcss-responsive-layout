@@ -57,11 +57,7 @@ a {
     font-size: 30px;
     padding-left: 15px;
     padding-top: 15px;
-    /* Debug*/
-/*     background-color: #13ff89;
-    border: dashed;
-    height: 400px;
-    width: 30%; */
+    background-color: white;
 }
 .box-dx h4, li{
     margin-bottom: 20px;

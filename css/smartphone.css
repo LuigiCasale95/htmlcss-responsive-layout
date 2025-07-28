@@ -20,7 +20,7 @@
 
     /* MAIN */
     .container {
-        width: 100%;
+        width: 90%;
     }
     h1 span {
         display: none;
@@ -57,11 +57,22 @@
         align-items: center;
     }
     .footer-sx {
-        width: 80%;
-
+        width: 90%;
+        margin: 0 auto;
+        font-size: 17px;
     }
     .footer-dx {
-        width: 80%;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 15px;
     }
+    .footer-dx ul {
+        text-decoration: underline;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
 
 }
