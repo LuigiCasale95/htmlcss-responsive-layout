@@ -10,7 +10,7 @@ body {
 .container {
     width: 70%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
     /* Debug */
 /*     background-color: aqua; */
 }
@@ -138,20 +138,27 @@ hr {
     margin-top: 30px; 
     background-color: #7C69A4;
     display: flex;
-    /* dEBUG */
-    height: 100px;
 }
-.footer-dx {
+.footer-dx , .footer-sx {
     width: 50%;
-    /* debug */
-    border: dashed;
-    height: 100px;
-    background-color: aquamarine;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+.footer-dx ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
 }
 .footer-sx {
-    width: 50%;
-    /* debug */
-    border: dashed;
-    height: 100px;
-    background-color: rgb(5, 95, 65);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-dx {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
 }

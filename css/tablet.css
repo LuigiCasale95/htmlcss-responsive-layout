@@ -1,7 +1,8 @@
 @media screen and (max-width: 1020px) {
     .container {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
+        margin-top: 30px;
     }
     .social span {
         display: none;
@@ -25,13 +26,24 @@
     .col {
         display: flex;
         flex-direction: column;
+        margin-top: 20px;
     }
     .box-sx {
         width: 100%;
     }
     .box-dx {
         width: 100%;
-
+    }
+    .fondo-pagina {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-dx , .footer-sx {
+        width: 56%;
+        margin: 0 auto;
+    }
+    .footer-sx > strong , span {
+        margin: 0 auto;
     }
 
 }
