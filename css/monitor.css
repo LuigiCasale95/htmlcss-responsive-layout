@@ -107,11 +107,39 @@ body {
     min-height: 200px;
     background-color: #FF9613;
     border: dashed;
-
+}
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 70px;
+    color: orange;
 }
 .img-preparazione {
     width: 30%;
     float: left;
     padding-right: 10px;
     padding-bottom: 5px;
+}
+
+/* footer  */
+.fondo-pagina {  
+    margin-top: 30px; 
+    background-color: #7C69A4;
+    display: flex;
+    /* dEBUG */
+    height: 100px;
+}
+.footer-dx {
+    width: 50%;
+    /* debug */
+    border: dashed;
+    height: 100px;
+    background-color: aquamarine;
+}
+.footer-sx {
+    width: 50%;
+    /* debug */
+    border: dashed;
+    height: 100px;
+    background-color: rgb(5, 95, 65);
 }
