@@ -1,6 +1,10 @@
 @media screen and (max-width: 640px) {
+    /* HEADER */
     .logo {
         text-align: center;
+    }
+    #titolo {
+        font-size: 65px;
     }
     .social {
         background-color: white;
@@ -13,6 +17,37 @@
         width: 50%;
         margin: 0 auto;
     }
+
+    /* MAIN */
+    .container {
+        width: 100%;
+    }
+    h1 span {
+        display: none;
+    }
+    .col {
+        display: flex;
+        flex-direction: column;
+    }
+    .box-sx {
+        width: 100%;
+    }
+    .box-dx {
+        width: 100%;
+
+    }
+    .box-dx h4, li {
+        font-size: 20px;
+    }
+    .box-dx ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+
+    /* FOOTER */
     .fondo-pagina {
         text-align: center;
         display: flex;
@@ -25,9 +60,6 @@
     }
     .footer-dx {
         width: 80%;
-    }
-    h1 span {
-        display: none;
     }
 
 }
